@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.speedometer-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+.speedImg {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+.mini-head {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.description {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.primary-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 24px;
+}
+.trans-btn {
+  background-color: transparent;
+  color: #94a3b8;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 2px solid #94a3b8;
+  outline: none;
+  cursor: pointer;
+  margin-right: 24px;
+}
